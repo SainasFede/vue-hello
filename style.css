@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  width: 50%;
+  background-image: linear-gradient(to left, #000099, #0022E3, #0059FF)
+}
+
+h1, h2{
+  color: white;
+}
+
+.change{
+  width: 30%;
+  height: 50%;
+  margin: 10px;
+}
+
+.change img{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+button{
+  padding: 5px;
+  border-radius: 5px;
+  border: solid blue;
+  margin: 5px;
+}
+
+.red{
+  color: red;
+}
