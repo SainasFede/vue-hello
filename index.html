@@ -16,10 +16,11 @@
       <h1 class="text-white">Dai un nome a questo cane e rendilo più bello con un click</h1>
       <div class="change">
         <img :src="img + imgChange" alt="">
+        
       </div>
-      <h2 class="colorText">{{ nome }}</h2>
+      <h2 :class="colorText">{{ nome }}</h2>
       <input type="text" v-model="nome">
-      <button @click="changeImg('cane.webp'), changeColor()">Dai un look a {{nome}}</button>
+      <button @click="duoChange()">Dai un look a {{nome}}</button>
 
     </div>
   </div>

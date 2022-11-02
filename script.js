@@ -15,6 +15,10 @@ createApp({
     },
     changeColor(){
       this.colorText = 'red'
+    },
+    duoChange(){
+      this.changeImg('cane.webp');
+      this.changeColor()
     }
   }
 }).mount('#app')
